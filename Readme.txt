@@ -8,6 +8,10 @@ ZLEVOClient v0.2 Readme
 
     Mac用户首先要安装gcc，需要从http://connect.apple.com/下载安装Xcode Tools，具体请查阅Apple Dev的信息。然后下载libpcap的源代码，http://www.tcpdump.org/release/libpcap-1.0.0.tar.gz，解压后分别运行
 
+
+sudo apt-get update
+sudo apt-get install flex bison byacc 
+
     ./configure
     make 
     sudo make install
